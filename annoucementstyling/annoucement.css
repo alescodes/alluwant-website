@@ -1,0 +1,274 @@
+.input-text {
+    display: block;
+    width: 1100px;
+    height: 600px;
+    margin-left: 60px;
+    border: solid;
+    border-color: gray;
+    font-size: 100PX;
+    
+
+    
+}
+
+
+
+ .div1 {
+width: 100px;
+height: 100px;
+background-color: red;
+position: relative;
+animation-name: div1;
+animation-duration: 60s;
+animation-iteration-count: infinite;
+}
+
+@keyframes div1 {
+0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
+75%  {background-color:green; left:0px; top:200px;}
+100% {background-color:red; left:0px; top:0px;}}
+
+.div2 {
+width: 100px;
+height: 100px;
+background-color: black;
+position: relative;
+animation-name: div1;
+animation-duration: 60s;
+animation-iteration-count: infinite;
+animation-delay: 2s;
+animation-direction: reverse;
+}
+
+@keyframes div1 {
+0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
+75%  {background-color:green; left:0px; top:200px;}
+100% {background-color:red; left:0px; top:0px;}
+
+
+
+
+
+
+
+
+
+
+
+}.div3 {
+width: 100px;
+height: 100px;
+background-color: green;
+position: relative;
+animation-name: div1;
+animation-duration: 60s;
+animation-iteration-count: infinite;
+animation-delay: 0;
+animation-direction: alternate-reverse;
+border-radius: 50%;
+font-size: 12PX; 
+font-weight: bold; 
+color: white;
+margin-left: 1000px; 
+text-align: center; 
+padding-top: 30px;
+top: 50px;
+}
+
+@keyframes div1 {
+0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
+75%  {background-color:green; left:0px; top:200px;}
+100% {background-color:red; left:0px; top:0px;}}
+.div4 {
+width: 100px;
+height: 100px;
+background-color: yellow;
+position: relative;
+animation-name: div1;
+animation-duration: 60s;
+animation-iteration-count: infinite;
+animation-delay: 0;
+animation-direction:reverse;
+border-radius: 50%;
+font-size: 12PX; 
+font-weight: bold; 
+color: white;
+margin-top: 300px;
+margin-left: 500px; 
+text-align: center; 
+padding-top: 30px;
+top: 50px;
+}
+
+@keyframes div1 {
+0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
+75%  {background-color:green; left:0px; top:200px;}
+100% {background-color:red; left:0px; top:0px;}}
+.div5 {
+width: 100px;
+height: 100px;
+background-color: teal;
+position: relative;
+animation-name: div1;
+animation-duration: 60s;
+animation-iteration-count: infinite;
+animation-delay: 0;
+animation-direction: reverse;
+border-radius: 50%;
+font-size: 12PX; 
+font-weight: bold; 
+color: white;
+margin-top: 500px;
+margin-left: auto; 
+text-align: center; 
+padding-top: 30px;
+top: 50px;
+}
+
+@keyframes div1 {
+0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
+75%  {background-color:green; left:0px; top:200px;}
+100% {background-color:red; left:0px; top:0px;}}
+
+.div6 {
+width: 100px;
+height: 100px;
+background-color: green;
+position: relative;
+animation-name: div1;
+animation-duration: 60s;
+animation-iteration-count: infinite;
+animation-delay: 0;
+animation-direction: inherit;
+border-radius: 50%;
+font-size: 12PX; 
+font-weight: bold; 
+color: white;
+margin-bottom: 700px;
+
+text-align: center; 
+padding-top: 30px;
+top: 50px;
+}
+
+@keyframes div1 {
+0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
+75%  {background-color:green; left:0px; top:200px;}
+100% {background-color:red; left:0px; top:0px;}}
+
+.div7 {
+width: 100px;
+height: 100px;
+background-color: purple;
+position: relative;
+animation-name: div1;
+animation-duration: 60s;
+animation-iteration-count: infinite;
+animation-delay: 0;
+animation-direction: unset;
+border-radius: 50%;
+font-size: 12PX; 
+font-weight: bold; 
+color: white;
+margin-top: auto;
+margin-left: auto; 
+text-align: center; 
+padding-top: 30px;
+top: 50px;
+}
+
+@keyframes div1 {
+0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
+75%  {background-color:green; left:0px; top:200px;}
+100% {background-color:red; left:0px; top:0px;}}
+
+.div8 {
+width: 100px;
+height: 100px;
+background-color: green;
+position: relative;
+animation-name: div1;
+animation-duration: 60s;
+animation-iteration-count: infinite;
+animation-delay: 0;
+animation-direction: normal;
+border-radius: 50%;
+font-size: 12PX; 
+font-weight: bold; 
+color: white;
+margin: 0; 
+text-align: center; 
+padding-top: 30px;
+top: 50px;
+}
+
+@keyframes div1 {
+0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
+75%  {background-color:green; left:0px; top:200px;}
+100% {background-color:red; left:0px; top:0px;}}
+
+
+
+
+
+.button2 {
+height: 500px;
+margin-left:200px;
+border: solid;
+border-color: gray;
+border-radius: 30px;
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+
+width: 900px;
+
+color: white;
+position: absolute;
+padding-bottom: 400PX;
+
+
+
+}
+.button1 {margin-left: 500px;
+border: solid;
+background-color: rgb(242, 237, 237);
+border-color: gray;
+border-radius: 30px;
+font-family: 'Times New Roman', Times, serif;
+position: fixed;
+z-index: 1000;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
